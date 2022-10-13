@@ -2,8 +2,8 @@ const db = require("./db");
 const Property = require("./models/property.js")
 
 module.exports = {
-    db, 
+    db,
     models: {
-        Property
+
     },
 };

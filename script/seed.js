@@ -1,5 +1,5 @@
 const { green, red } = require('chalk');
-const { db, 
+const { db,
     models: {
     Property
 }, } = require('../server/db');
@@ -8,7 +8,7 @@ const seed = async () => {
   try {
     await db.sync({ force: true });
     // seed your database here!
-    await Property.create({ name: "slum1", description: "this is a description", imageURL: "https://images.theconversation.com/files/197319/original/file-20171201-17371-svywr4.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"});
+    await Property.create({ name: "Sean Collins Smith", description: "this is a description", imageURL: "https://images.squarespace-cdn.com/content/v1/5f9218812c6b19296efe6688/1630427198615-F1VT8CSPWBZRNMXRT3NM/sean-collins-smith-1.jpeg?format=1500w"});
 
   } catch (err) {
     console.log(red(err));

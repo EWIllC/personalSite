@@ -6,3 +6,28 @@ nav a {
 h2 {
     text-align: center;
 }
+
+.picture {
+    width:540px;
+    height: auto;
+
+}
+
+.title {
+
+  text-align: center;
+}
+
+.navbar {
+
+  text-align: left;
+}
+
+.payButton {
+  text-align: center;
+}
+
+.payment-options {
+  text-align: center;
+  display: block
+}
