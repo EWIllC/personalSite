@@ -1,7 +1,9 @@
-nav a {
+
+
+/* nav a {
     display: inline-block;
-    margin: 1em;
-}
+    margin: 22px;
+} */
 
 h2 {
     text-align: center;
@@ -14,13 +16,42 @@ h2 {
 }
 
 .title {
+  vertical-align: middle
+  /* text-align: center; */
+}
 
-  text-align: center;
+.dropdown {
+
+  left: 0;
+  position: fixed;
+}
+
+.dropdown-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.dropdown-item {
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0.5rem
+}
+
+.dropdown-icon {
+  text-size-adjust: 100rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .navbar {
-
+  background-color:deepskyblue;
   text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 70px;
 }
 
 .payButton {
@@ -29,5 +60,9 @@ h2 {
 
 .payment-options {
   text-align: center;
+  padding-top: 100px;
+  scale: 80%;
   display: block
 }
+
+

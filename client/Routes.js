@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import PayMe from "./components/PayMe";
 import Confirmation  from "./components/Confirmation";
 
+
 class Routes extends React.Component {
     render() {
         return (

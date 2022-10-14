@@ -35,7 +35,7 @@ export default function PayMe(props) {
 
   return (
     <div>
-      <div ref={paypal}></div>
+      <div className="payment-options" ref={paypal}></div>
     </div>
   )
 }
